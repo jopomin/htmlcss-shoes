@@ -3,3 +3,107 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+header, main {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+ul.menu {
+  list-style: none;
+  text-align: right;
+  line-height: 80px;
+  padding: 10px 30px 0 0;
+}
+
+ul.menu a {
+  display: inline-block;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ddd;
+  color: #444;
+  text-align: center;
+  line-height: 50px;
+}
+
+ul.menu a:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
+}
+
+.shoes {
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 0;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h2 {
+  font-size: 46px;
+  color: yellow;
+}
+
+#red {
+  background: red;
+}
+
+#green {
+  background: green;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#yellow h2 {
+  color: green;
+}
+
+footer {
+  height: 40px;
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer p {
+  line-height: 40px;
+  font-size: 12px;
+  color: #fff;
+}
+
+footer a {
+  text-decoration:none;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer a:hover {
+  color: rgba(0,0,0,0.4);
+}
+
+footer a:active {
+  color: rgba(0,0,0,0.8);
+}
